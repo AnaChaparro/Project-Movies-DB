@@ -29,7 +29,7 @@
  
 ##### - ¿Cuáles son los 10 películas de la categoría Classics con contengan un Behind the Scenes?
 
-![query0.png](attachment:query0.png)
+![image](https://user-images.githubusercontent.com/113057530/200517710-e4eace84-61ab-4cbf-86ed-60e5614c2e85.png)
 
 
 ##### - Los 7 actores con más películas en inglés de la categoría Children.
