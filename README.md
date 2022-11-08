@@ -14,13 +14,16 @@
  En dicha librería hay que establecer las relaciones entre las columnas, que tras su obserbación y estudio se modifica la de old_HDD dejando únicmante las columnas que nos interesan de la misma.
  
  Se realiza el diagrama ERD cambiado los tipos de datos a los correctos, estableciendo las relaciones y las serán las Primary Keys y las Foreing Key, quedando el diagrama de la siguiente manera:
+ 
 
 ![Diagrama%20ERR.png](attachment:Diagrama%20ERR.png)
 
  
  Al establecerse todas las relaciones, se sincroniza el modelo con la base de datos, quedando así la base de datos guardada de menera correcta.
  
- ## 3. Comprobación del correcto funcionamiento de la base de datos.
+ 
+
+## 3. Comprobación del correcto funcionamiento de la base de datos.
  
  Para verificar si se ha creado correctamente la base de datos y las relaciones entre todas las tablas indicadas, se tiran 10 querys:
  
@@ -28,33 +31,47 @@
 
 ![query0.png](attachment:query0.png)
 
+
 ##### - Los 7 actores con más películas en inglés de la categoría Children.
 
+
 ![query1.png](attachment:query1.png)
+
 
 ##### - ¿Cuales son las 15 películas con mayor número de actores que intervienen?
 
 ![query2.png](attachment:query2.png)
 
+
+
 ##### - Si una película tiene un ratio de alquiler mayor de 2.5 se considera popular, es es menor, impopular.
 
 ![query3.png](attachment:query3.png)
+
+
 
 ##### - Películas en mandarín
 
 Sale una lista vacía porque no hay películas en Mandarín.
 
+
+
 ##### - ¿Cuáles son los 5 actores con más películas de duración superior a 80 minutos?
 
 ![query4.png](attachment:query4.png)
+
+
 
 ##### - ¿Cuáles son las películas de acción de una duración inferior a 100 minutos?
 
 ![query5.png](attachment:query5.png)
 
+
+
 ##### - Actores que han salido en películas con clasificación 'G'.
 
 ![query6.png](attachment:query6.png)
+
 
 ##### -Las 20 películas en la que solo aparece un actor con menor duración.
 
@@ -63,7 +80,3 @@ Sale una lista vacía porque no hay películas en Mandarín.
 ##### - Determinar cuántas películas existen por cada categoría.
 
 ![query8.png](attachment:query8.png)
-
-
- 
- 
